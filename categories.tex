@@ -1,7 +1,7 @@
 \chapter{Category theory}
 \label{cha:category-theory}
 
-Of the branches of mathematics, category theory is one which perhaps fits the least comfortably in set theoretic foundations.
+Of the branches of mathematics, category theory is one which perhaps fits the least comfortably in set-theoretic foundations.
 One problem is that most of category theory is invariant under weaker notions of ``sameness'' than equality, such as isomorphism in a category or equivalence of categories, in a way which set theory fails to capture.
 But this is the same sort of problem that the univalence axiom solves for types, by identifying equality with equivalence.
 Thus, in univalent foundations it makes sense to consider a notion of ``category'' in which equality of objects is identified with isomorphism in a similar way.
@@ -1188,8 +1188,7 @@ Thus for each $x,y:A$ we have a set of unitary isomorphisms from $x$ to $y$, whi
     \index{function!linear}%
     \indexsee{linear map}{function, linear}%
   \end{itemize}
-  By standard linear algebra, any linear map $f:V\to W$ between finite
-  dimensional inner product spaces has a uniquely defined adjoint\index{adjoint!linear map} $\dgr f:W\to V$, characterized by $\langle f v,w\rangle = \langle v,\dgr f w\rangle$.
+  By standard linear algebra, any linear map $f:V\to W$ between finite-dimensional inner product spaces has a uniquely defined adjoint\index{adjoint!linear map} $\dgr f:W\to V$, characterized by $\langle f v,w\rangle = \langle v,\dgr f w\rangle$.
   In this way, \uhilb becomes a $\dagger$-precategory.
   Moreover, a linear isomorphism is unitary precisely when it is an \define{isometry},
   \indexdef{isometry}%
@@ -1218,7 +1217,7 @@ notion of structure in a strong form: for types $A,B$, the
 canonical function $(A=B)\to (\eqv A B)$ is an equivalence.
 
 We start with a precategory $X$.  In our application to
-single-sorted first order structures, $X$ will be the category %\uset%
+single-sorted first-order structures, $X$ will be the category %\uset%
 of $\bbU$-small sets, where $\bbU$ is a univalent type universe.
 
 \begin{defn}\label{ct:sig}
@@ -1332,7 +1331,7 @@ Note that each $x:|a|^{|\omega|}$ is a function $x:|\omega|\to |a|$ so that $f\c
 Now we assume given a (univalent) universe $\bbU$ and a $\bbU$-small signature $\Omega$; i.e. $|\Omega|$ is a $\bbU$-small set and, for each $\omega:|\Omega|$, the set $|\omega|$ is $\bbU$-small.
 Then we have the category $\uset_\bbU$ of $\bbU$-small sets.  We want to define the precategory of $\bbU$-small $\Omega$-structures over $\uset_\bbU$ and use \cref{thm:sip} to show that it is a category.
 
-We use the first order signature $\Omega$ to give us a standard notion of structure $(P,H)$ over $\uset_\bbU$.
+We use the first-order signature $\Omega$ to give us a standard notion of structure $(P,H)$ over $\uset_\bbU$.
 
 \begin{defn}\label{defn:fo-notion-of-structure}
 \mbox{}
